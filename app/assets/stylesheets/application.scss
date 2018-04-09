@@ -1,1 +1,5 @@
-@import 'bootstrap'
+@import 'bootstrap';
+
+body > .container {
+  padding-top: 60px;
+}

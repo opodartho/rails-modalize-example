@@ -2,9 +2,14 @@ doctype html
 html
   head
     title
-      | RailsModalizeExample
+      | Rails Modalize
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
-    = yield
+    header
+      nav.navbar.navbar-dark.fixed-top.bg-dark
+        .container
+          a.navbar-brand href="#{root_path}" Modalize
+    .container
+      = yield
