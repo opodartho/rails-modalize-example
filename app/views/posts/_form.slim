@@ -1,4 +1,5 @@
-= simple_form_for(@post, html: { class: 'form-horizontal'}) do |f|
+= simple_form_for(@post,
+  html: { class: 'form-horizontal', data: { modal: true } }) do |f|
   = f.error_notification
 
   .form-inputs
