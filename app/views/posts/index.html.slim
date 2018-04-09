@@ -17,7 +17,7 @@ table.table.table-responsive
         td = post.body
         td = post.author
         td = link_to 'Show', post
-        td = link_to 'Edit', edit_post_path(post)
+        td = link_to 'Edit', edit_post_path(post), data: { modal: true }
         td = link_to 'Destroy', post, data: { confirm: 'Are you sure?' }, method: :delete
 
 br
