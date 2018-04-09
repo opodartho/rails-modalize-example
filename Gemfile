@@ -7,6 +7,7 @@ gem 'puma'
 gem 'rails'
 gem 'sqlite3'
 gem 'sass-rails'
+gem 'slim-rails'
 gem 'turbolinks'
 gem 'uglifier'
 
